@@ -1,0 +1,279 @@
+/* welcome to the style file of this project! */
+
+* {
+    transition: all ease .2s ;
+    position: absolute;
+}
+.beautiful-element{
+
+    	width: 20px;
+	height: 100px;
+    background-color: rgb(35, 175, 0);
+transform: rotate(45deg);
+transform: skew(10deg);
+top: 500px;
+left: 600px;
+filter: blur(4px);
+}
+.black-square{
+
+    width: 500px;
+	height: 200px;
+    background-color: black;
+    border-radius:100px;
+    border:10px solid gray;
+    top: 600px;
+    left: 400px;
+
+}
+.blue{
+    width: 60px;
+	height: 60px;
+    background-color: rgb(0, 26, 175);
+top: 800px;
+left: 200px;
+border-radius: 50%;
+    
+
+}
+.lime{
+
+      width: 20px;
+     height: 200px;
+     background-color: rgb(136, 255, 0);
+     -webkit-box-shadow: 0px 0px 27px 0px #000000;
+-moz-box-shadow: 0px 0px 27px 0px #000000;
+box-shadow: 0px 0px 27px 0px #000000;
+    top: 300px;
+    left: 800px;
+
+    animation-name: animation6;
+    animation-duration: 6s;
+    animation-iteration-count:infinite;
+    animation-direction: alternate-reverse;
+
+
+}
+@keyframes animation6 {
+    from {
+        transform: rotate(0deg);
+    }
+    50%{
+        filter: blur(9px);
+
+    }
+    to {
+        transform: rotate(180deg);
+    }
+
+    
+}
+.big{
+   width: 700px;
+   height: 700px;
+   background-color: rgba(0, 255, 242, 0.411);
+   border: 3px solid rgb(0,0,255);
+   opacity: 0.8;
+   box-shadow: 10px 10px 8px #3d3d3d;
+   top: 800px;
+    left: 200px;
+
+
+}
+.circle1{
+    width: 400px;
+    height: 700px;
+    border-radius: 50%;
+    background-color: rgb(162, 0, 255);
+    top: 700px;
+    left: 500px;
+
+    animation-name: animation5;
+    animation-duration: 2s;
+    animation-iteration-count:infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes animation5 {
+    from {
+        transform: scale(0.5 2);
+    }
+    50%{
+        transform: skew(50deg);
+
+    }
+    to {
+        transform: scale(0.10 7);
+    }
+
+    
+}
+.figure1{
+
+    width: 200px;
+    height: 300px;
+    filter: blur(4px);
+    opacity: 0.5;
+    transform: scale(0.3 2);
+    background: linear-gradient(45deg, rgb(9, 255, 0), red);
+    top: 500px;
+    left: 500px;
+
+    animation-name: animation4;
+    animation-duration: 5s;
+    animation-iteration-count:infinite;
+    animation-direction: alternate-reverse;
+    
+}
+@keyframes animation4 {
+    from {
+        width: 300px;
+        height: 100px;
+    }
+    50%{
+        transform: skew(50deg);
+
+    }
+    to {
+        width: 500px;
+        height: 100px;
+    }
+
+    
+}
+.figure2{
+
+    width: 200px;
+    height: 300px;
+    box-shadow: 20px 20px 8px #00ff62;
+    border: 1px solid rgb(172, 0, 0);
+    border-radius: 30%;
+    top: 100px;
+    left: 500px;
+    background: linear-gradient(45deg, rgb(0, 174, 255), rgb(247, 0, 255));
+
+    animation-name: animation3;
+    animation-duration: 1s;
+    animation-iteration-count:infinite;
+    animation-direction: alternate-reverse;
+
+
+}
+@keyframes animation3 {
+    from {
+        transform: rotate(0deg)
+    }
+    50%{
+    opacity: 0
+
+    }
+    to {
+        transform: rotate(90deg)
+    }
+
+    
+}
+.figure3{
+
+    width: 100px;
+    height: 700px;
+    border-radius: 70%;
+    top: 300px;
+    left: 100px;
+    transform: skew(10deg);
+    background: linear-gradient(45deg, rgb(229, 255, 0), rgb(0, 255, 170));
+    
+    animation-name: animation7;
+    animation-duration: 2s;
+    animation-iteration-count:infinite;
+    animation-direction: alternate-reverse;
+
+}
+@keyframes animation7 {
+    from {
+        transform: rotate(0deg);
+    }
+    50%{
+        box-shadow: 20px 20px 8px #ff00ff;
+
+    }
+    to {
+        transform: rotate(180deg);
+    }
+
+    
+}
+.figure4{
+
+    width: 20px;
+    height: 900px;
+    top: 800px;
+    left: 800px;
+    background-color: rgb(0, 0, 0);
+
+    
+
+
+}
+.figure5{
+
+    width: 200px;
+    height: 500px;
+    transform: rotate(35deg);
+    background: linear-gradient(45deg, rgb(123, 255, 0), rgb(128, 53, 131));
+    filter: blur(9px);
+    top: 1400px;
+    left: 100px;
+    
+    animation-name: width-animation2;
+    animation-duration: 4s;
+    animation-iteration-count:infinite;
+    animation-direction: alternate-reverse;
+
+}
+@keyframes width-animation2 {
+    from {
+        width: 100px;
+        height: 100px;
+    }
+    50%{
+    border-radius:70%
+
+    }
+    to {
+        width: 500px;
+        height: 500px;
+    }
+
+    
+}
+.figure6{
+
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(45deg, rgb(0, 0, 0), rgb(255, 255, 255));
+    border: 20px solid rgb(55, 0, 255);
+    border-radius: 50%;
+    top: 1400px;
+    left: 1400px;    
+
+    animation-name: width-animation;
+    animation-duration: 2s;
+    animation-iteration-count:infinite;
+    animation-direction: alternate-reverse;
+    
+
+
+}
+@keyframes width-animation {
+    from {
+        left: 0;
+    }
+    50%{
+    border-radius:20%
+
+    }
+    to {
+        left: 500px;
+
+    }
+}
